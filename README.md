@@ -10,3 +10,4 @@ This repository contains the source code of macadmin.fi. Powered by Hugo.
 - to make a new post: ```hugo new post/my-new-post```
   - edit the post in your favorite editor, e.g. ```atom content/post/my-new-post```
 - commit your changes and push them to the ```sources``` branch
+  - Travis CI will magically take care of the deployment, while you can enjoy your favorite beverage.
