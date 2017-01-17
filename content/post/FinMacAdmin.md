@@ -8,13 +8,19 @@ After a short hiatus, FinMacAdmin is back again - bigger and better than ever!
 
 This year, the organizers will bring you our first ever guest from outside Finnish borders as Henry Stammerjohann (@henry on Slack) will give a presentation and a hands-on session on Zentral (https://github.com/zentralopensource/zentral). Henry will be joined on stage by the household names, such as Hannes Juutilainen (@hjuutilainen) and Janne Lehikoinen (@fatmrcrab)
 
-## Program
-We start in 20.1.2017 at 11.00.
-
-
 ## Venue:
 
 The event will be held in the Tieto Offices in Helsinki. The address is: Aku Korhosen tie 2, Helsinki, https://goo.gl/maps/9sttfNYPgsq
+
+
+## Program
+The event will start at 11.00.
+
+
+## Material
+
+Pre-workshop material will be provided here shortly.
+
 
 ## Sponsors:
 
