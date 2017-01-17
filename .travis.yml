@@ -8,8 +8,8 @@ env:
     - secure: "keLqGqHg/9arvqZ/cCTAX9F3TERrCHujtSjnjaa6Rl45Q1b9RTbndAbpAGVfSkBNbx0p+w0G1v/bOWc7c/ZiRB8sFy9mX6MAobe9/mZMhajsGqBfHUPBng+0ftvW5Et+jOBUEGmk8PmyzzcgiHocnIoJ6skHstLPqTNbjC6QMmt83BbfI/UMqGD30791ruZ5VDoBssnsVHaG3NDEPvYGgVG1QGucfHpFXArVsnhxW2x/d2bURM3+EK28XNL2uzJLmEHiW7CzZadEh2RCbson2IcbgNPbntvsdvLenM1Ju82if30LJEn9ptAU7+LFt7+wGAfhLZFEUPWjrK9Cn/VRvtgu08EsfeZ2TtkXi63RBRhMWQeHQElvCAhrDoGTp1JA2H1Xua0HvEmwsJ0sKsBVYU1CLgyXxlCHKT+ddnOQyO8tkxfD7KnTkCKddZif0FM3DKHuM120gSmGUy1mRFiCMk8qI1mLPUUA3366dHAnK57FHkScFkZ4+5eyXgUxnLB87qN11QSWORW86ksSq1bcFSvkcVo6g+E6o/cQVmdvOHxhc6iK/IAKiZzjY/82GUA6kFyzzSeQ6DQFiWAOL+nluGH6gDY+1q5RH/SmETplcizNFObQWd1r1lmxjQL/tWpFaT7UciKtZGv3BbEuypeH5QdAcRpeoBoAQV/59hzpJpU="
     - GIT_DEPLOY_DIR=public             # default output dir of Hugo
     - GIT_DEPLOY_BRANCH=master          # target branch
-    - GIT_DEPLOY_USERNAME="apettinen"   # dummy name
-    - GIT_DEPLOY_EMAIL=antti.pettinen@gmail.com # replace by your email
+    - GIT_DEPLOY_USERNAME="MacAdminFi"   # dummy name
+    - GIT_DEPLOY_EMAIL= # replace by your email
 
 branches:
   only:
