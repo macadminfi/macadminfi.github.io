@@ -29,4 +29,4 @@ script:
   - hugo
 after_success:
   - cp .travis.yml public               # all branches need this file
-  - bash deploy.sh                      # run the deploy
+  - bash deploy.sh -v                     # run the deploy
