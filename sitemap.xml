@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://macadmin.fi/post/ToTheInternetz/</loc>
+    <lastmod>2017-01-17T01:41:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macadmin.fi/</loc>
+    <lastmod>2017-01-17T01:41:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macadmin.fi/post/</loc>
+    <lastmod>2017-01-17T01:41:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

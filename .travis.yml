@@ -1,0 +1,32 @@
+language: go
+
+go:
+  - "1.7.4"
+
+env:
+  global:
+    - secure: "T9rOTNVap8gW0bIaydLYRgxiryD4lXe/dmhc39I4yvCpu/4JJ1zNQK2uSP9U99BH3Ui0qlxDxOo9NPcEHvIpiBWbzj1dxjMldpqxCBOgA9veZcT/Qsx7JBZH1bt8UOUY/DhayNZ/DssVZ98H5O5/J6L5NmsgW8DIDjoVSNWco7mMAMDdGZ+jAgPyLfNKWVcntPXiYXnlfDLWh4CPos/5adlFUcvqAfo46OGxXcE8SdFRQtGmPV4u2qlmkVmKbCK3IHnaAo/EbIAC3mlEeO+PaIlH1XNC403xrc3jfRAtD7ng10KBKZk3sx3q+N95qGeiTL1+ixjVFVybhf1kuCzxNaEXe1phvRRIcB1xqZ/W2Vo8lh+LdIgwNsL8rC9NAzd2zYZ4/qkzICxHcpK6aMUFDhPWbqWjESeDmYUEc3HP8v+q+LMRVm96T9RO+NQPFjYtMz1Pe/9ETEAt7uK2LEjN1CtiGi+U0qsI68EZljZBzwpErearIPdwv6SZ0ka/Dwc2lwa9f3YQaIEueoAEgDVFxl18jmq1V3jK5t9ed4vrjFpnm8zjXe9BiyJQrQAwalX+Cb0Kwxxb8LclsUfiM6K+i+4zKCeppA4P/VQ+cOfcImRf2ogzV2W/tDZIeMuJrKGhHwt2pEJGGjqACTueGXrj2O9kWJIv4MAbzIWwybNHbGw="
+    - GIT_DEPLOY_DIR=public             # default output dir of Hugo
+    - GIT_DEPLOY_BRANCH=master          # target branch
+    - GIT_DEPLOY_USERNAME="apettinen"   # dummy name
+    - GIT_DEPLOY_EMAIL=antti.pettinen@gmail.com # replace by your email
+
+branches:
+  only:
+    - sources                           # for Github Project Pages replace with "master"
+
+install:
+  - rm -rf public || exit 0             # cleanup previous run
+
+before_script:
+    - git submodule init
+    - git submodule update
+    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
+    - go get -u -v github.com/spf13/hugo
+
+script:
+  #- binaries/hugo                       # Generate
+  - hugo
+after_success:
+  - cp .travis.yml public               # all branches need this file
+  - bash deploy.sh -v                     # run the deploy
