@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacAdmin.fi</title>
-    <link>https://macadmin.fi/index.xml</link>
+    <link>https://macadminfi.github.io/macadminfi/index.xml</link>
     <description>Recent content on MacAdmin.fi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jan 2017 01:41:09 +0200</lastBuildDate>
-    <atom:link href="https://macadmin.fi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://macadminfi.github.io/macadminfi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Finnish Mac Admin Community site</title>
-      <link>https://macadmin.fi/post/ToTheInternetz/</link>
+      <link>https://macadminfi.github.io/macadminfi/post/ToTheInternetz/</link>
       <pubDate>Tue, 17 Jan 2017 01:41:09 +0200</pubDate>
       
-      <guid>https://macadmin.fi/post/ToTheInternetz/</guid>
+      <guid>https://macadminfi.github.io/macadminfi/post/ToTheInternetz/</guid>
       <description>&lt;p&gt;Hello &lt;a href=&#34;https://www.youtube.com/watch?v=HAoHUjVmTmg&#34;&gt;Suomalaiset people&lt;/a&gt; and others too! Welcome to the new and first home of the Finnish Mac Admin community. These webpages will host information about coming events and occasionally a blog post or two. The best thing is that &lt;em&gt;anybody&lt;/em&gt; can take part and contribute - our source code is open on &lt;a href=&#34;https://github.com/macadminfi&#34;&gt;GitHub&lt;/a&gt;.&lt;br /&gt;
 &lt;br /&gt;
 Our small community has been growing rapidly during the past year - so at least for us, 2016 was not that bad afterall. We have welcomed many new faces - or should we say nicknames or handles - to the &lt;code&gt;#finland&lt;/code&gt; channel on the global &lt;a href=&#34;https://macadmins.org&#34;&gt;MacAdmins Slack&lt;/a&gt;. We hope that the trend continues - welcome you all!&lt;/p&gt;

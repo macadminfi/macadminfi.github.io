@@ -19,8 +19,8 @@ install:
   - rm -rf public || exit 0             # cleanup previous run
 
 before_script:
-    - git submodule init
-    - git submodule update
+    #- git submodule init
+    #- git submodule update
     - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
     - go get -u -v github.com/spf13/hugo
 
