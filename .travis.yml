@@ -9,7 +9,7 @@ env:
     - GIT_DEPLOY_DIR=public             # default output dir of Hugo
     - GIT_DEPLOY_BRANCH=master          # target branch
     - GIT_DEPLOY_USERNAME="MacAdminFi"   # dummy name
-    - GIT_DEPLOY_EMAIL= # replace by your email
+    - GIT_DEPLOY_EMAIL=antti.pettinen@gmail.com # replace by your email
 
 branches:
   only:
