@@ -26,7 +26,7 @@ before_script:
 
 script:
   #- binaries/hugo                       # Generate
-  - hugo
+  - hugo -t anybodyhome
 after_success:
   - cp .travis.yml public               # all branches need this file
   - bash deploy.sh -v                     # run the deploy
