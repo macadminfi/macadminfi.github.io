@@ -1,0 +1,3 @@
+[submodule "themes/anybodyhome"]
+	path = themes/anybodyhome
+	url = https://github.com/lasseborly/anybodyhome.git

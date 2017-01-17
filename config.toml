@@ -1,0 +1,7 @@
+languageCode = "en-us"
+title = "MacAdmin.fi"
+baseurl = "https://macadmin.fi"
+
+[Params]
+  Subtitle = "Home of the Finnish Mac Admins"
+  Author = "The Finnish MacAdmin Community"
