@@ -5,7 +5,7 @@ go:
 
 env:
   global:
-    - secure: "gHFjuO2dHUQCtYl7JaFX7tW+JSApwqOiinSiIXDOnTpianbt4/JzuJ6mvQQPKxhsT53q+pPb8tVZ1Cfh7+O80Hjolzxc70ApE9sHOUFyKHdhrEAoIZgxjcOc5yZ7zdT39I80EmcuNXNicuw20BvkWqKjGWK2FcinksbhlvOdR8ToiBGBy8GJUMANfvYqZDALKHGxEqGygHATHaVG8YbjIKfqNPYBVeKTMyrjlqY+brVGNkucXVr4oXO39pGFNSXPLtkdirpYvJA1xSrsPWbzNGbSe4vxje/t8iE9xTc6ujMG2jDq6X8VJEWui6OGaAE/6IJmcRjr/5bOv/K4Jq0OamDk8zVm+FZtbWGDpfJO/2hTXc5xPfbK/5xwfs8HqwqtTqauO3y72TN+4TL0VHaFS7FfD9z5EA+aeQHcupYMFz/xsiGVGFbLjAL2nm8iZmXKn98oCJOWkPdcROdLzrRg2a5i57SjzegW2K6Cx/hAMBmQ81K+7tAqC3e7odXWAgCZe+DgaNqqvdUbVkiCv+/3yMEVbjI738OLipgSUBhpsv79mcHr+JqyBF9PEKyQMGxBqMRbjHkh8PyZqBGUUVudSeMtxj9PMzWBfuKb4NUUD2ZwuZ6Mx3tgcaLkfrhIiXq3Li10WKEV7WDUddSY6rMeKpHoP3tWxO2s6OAEWK8taBg="
+    - secure: "T9rOTNVap8gW0bIaydLYRgxiryD4lXe/dmhc39I4yvCpu/4JJ1zNQK2uSP9U99BH3Ui0qlxDxOo9NPcEHvIpiBWbzj1dxjMldpqxCBOgA9veZcT/Qsx7JBZH1bt8UOUY/DhayNZ/DssVZ98H5O5/J6L5NmsgW8DIDjoVSNWco7mMAMDdGZ+jAgPyLfNKWVcntPXiYXnlfDLWh4CPos/5adlFUcvqAfo46OGxXcE8SdFRQtGmPV4u2qlmkVmKbCK3IHnaAo/EbIAC3mlEeO+PaIlH1XNC403xrc3jfRAtD7ng10KBKZk3sx3q+N95qGeiTL1+ixjVFVybhf1kuCzxNaEXe1phvRRIcB1xqZ/W2Vo8lh+LdIgwNsL8rC9NAzd2zYZ4/qkzICxHcpK6aMUFDhPWbqWjESeDmYUEc3HP8v+q+LMRVm96T9RO+NQPFjYtMz1Pe/9ETEAt7uK2LEjN1CtiGi+U0qsI68EZljZBzwpErearIPdwv6SZ0ka/Dwc2lwa9f3YQaIEueoAEgDVFxl18jmq1V3jK5t9ed4vrjFpnm8zjXe9BiyJQrQAwalX+Cb0Kwxxb8LclsUfiM6K+i+4zKCeppA4P/VQ+cOfcImRf2ogzV2W/tDZIeMuJrKGhHwt2pEJGGjqACTueGXrj2O9kWJIv4MAbzIWwybNHbGw="
     - GIT_DEPLOY_DIR=public             # default output dir of Hugo
     - GIT_DEPLOY_BRANCH=master          # target branch
     - GIT_DEPLOY_USERNAME="apettinen"   # dummy name
