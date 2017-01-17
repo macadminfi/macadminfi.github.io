@@ -5,7 +5,7 @@ go:
 
 env:
   global:
-    - secure: "aSUBVXQP7d/PaUBlslmlenfhEgsLpHG9ei2pqcCpMyCZXCVm946gTeFiwfDtBXE/mHycow9VAE8PhHNl7nFVr2bMCvW5ZaF/aQikaTBDcuNDPrKn9oFmf5g+QHhRqSEQpAyh2SYRjRb82iykb7pcQ48/GGNl3Ap7jS9Z/zmpTZT12E10UmQ9GFpmkGt+TwHxznS5rdW4nTejkLZZ2cSyWyE1z5uUO6u8T6QqAIsw9hmP+MsG79z2ffcYXuiVaPwkW8rdxeq/HGK68uf0XLCQXheVmqbEr8RmbExI2YhfORNzidSOFuzgBFEu4vujn5g2xwjbwQTpkze2lgNhpfw59VlTI/jKP2KlnLJAttUlsP86K5jUXSRYG9+Ka7njFrron1l/Tc+fFUnzPxIj9STcd+5zk9oe586nUsxFqXK31urCpdJmKQ73ANUPMJIWyBKNAK9EBY+nVHmnVncP4T9VS2HYKPPwVoFDAZF9DNJAhno2Zy364ShTxETwd1ozlHnQxEbzfylrowowf2avdd1FcK7ibyBdS8NXTbcBjiWprp10fUoRRhS4S9f8HqAb7yyt4v6Et+Prtl2DLcmNt91/biqdEBk89THpz+6ER849549ydCzq+JNJNOOll7OkRPX9rGcqAgY2OpuHmd8lJ9xXNT3c5oDH2NJEQNViF76oIlI="
+    - secure: "ZWbWnI0PC/4YfKsboqGaapFKo8onCdE0NkYJ54vGvIeSpjHlnezVxaT4R/mpkyU4JlHTh42VJ2cAe7DaftFCUXV+4YlwFEfnUExcnlNFasRQlqZpjr58qTThZE6dR//lFTAvyBsBd+OIb3R0dQk1B4hO+29K93CLpxHuN/oFw5t+qO3FdJ8gsEriM8GWgjImD3IupH9R6ZDQ7c8FMu3yRwjwDAxXgDX8L+6Zt6JFmBncEFK6DxNJNhF35ouAokkgAlCEEAPySbkP++DRyzdSWf4z55RoF8zLXlVqCSjG3viGPbqASpX6lvKlpF0BQj60zWYTEWm8MNyE3l9APqbuVKi1lDdZywtof+ncP9vItk6VxWo7wEUAvAD+c3TUUzTiXq678aaZ+FvVR/OXGRAfQIYDzm6kfgTJgTB0nhTqIhKMS8sG/kz37F2lR6VMKNroXnctpwI/seR5eoR/J+enChE7NMHxJhC+r4cpMsDawP9swHV0RppV5ZZER4DKsbtbi2iQ/UJTs3Ck4rnwwg4UM0EBNvWJI/vm1fX81Rddq2x8tv8+cGSYAOT1/3vvkeFkgC7aQf1K+zqLt4MdjNMnVm4SpTM1CBmi8lGu7DddKl/Rd9zqxQ73FWtFmZJDngeA3EHQSvq1MNIjT+3ANoSJNitTxt6rSXaiQeWP33f53hc="
     - GIT_DEPLOY_DIR=public             # default output dir of Hugo
     - GIT_DEPLOY_BRANCH=master          # target branch
     - GIT_DEPLOY_USERNAME="MacAdminFi"   # dummy name
@@ -19,8 +19,9 @@ install:
   - rm -rf public || exit 0             # cleanup previous run
 
 before_script:
-    #- git submodule init
-    #- git submodule update
+    - git config --global push.default simple
+    - git submodule init
+    - git submodule update
     - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
     - go get -u -v github.com/spf13/hugo
 
