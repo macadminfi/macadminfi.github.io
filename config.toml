@@ -4,7 +4,6 @@ baseurl = "https://macadminfi.github.io"
 themesDir = "themes"
 theme = "hugo-theme-vec"
 paginate = 10
-enableRobotsTXT = true
 copyright = "Copyright (c) 2017, MacAdminFi; all rights reserved."
 
 [menu]
