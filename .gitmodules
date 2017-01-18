@@ -12,4 +12,4 @@
 	url = https://github.com/nishanths/cocoa-hugo-theme.git
 [submodule "themes/hugo-theme-vec"]
 	path = themes/hugo-theme-vec
-	url = https://github.com/IvanChou/hugo-theme-vec
+	url = https://github.com/macadminfi/hugo-theme-vec.git

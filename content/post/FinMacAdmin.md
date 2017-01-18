@@ -30,7 +30,7 @@ The event will start at 11.00(AM), speakers are adviced to arrive at 10.00(AM).
 
 ### Schedule:
 - 11.00 - 11.15: Registration and Welcome
-- 11.15 - 12.00: Janne Lehikoinen (Tieto Oyj): *iOS & SysAdmin Tools*
+- **11.15 - 12.00:** Janne Lehikoinen (Tieto Oyj): iOS & SysAdmin Tools
 - 12.00 - 12.30: Lunch break
 - 12.30 - 13.30: Lightning talks:
   - Hannes Juutilainen (University of Jyväskylä): *AutoPkg 1.0 features*
@@ -48,6 +48,8 @@ The event will start at 11.00(AM), speakers are adviced to arrive at 10.00(AM).
           1. Start the ssh-agent if not already running: ```eval "$(ssh-agent -s)"```
           2. Add the key to your ssh-agent: ```ssh-add ~/.ssh/id_rsa_zentraldemo``` (replace the name of the key if necessary)
 - 18.00 -> : Discussion and Sauna (of course)
+
+
 
 ## Material
 
