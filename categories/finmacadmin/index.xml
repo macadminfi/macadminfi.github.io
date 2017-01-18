@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finmacadmin on MacAdmin.fi</title>
-    <link>https://macadminfi.github.io/categories/finmacadmin/index.xml</link>
+    <link>http://macadmin.fi/categories/finmacadmin/index.xml</link>
     <description>Recent content in Finmacadmin on MacAdmin.fi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://macadminfi.github.io/categories/finmacadmin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://macadmin.fi/categories/finmacadmin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FinMacAdmin 20.1.2017</title>
-      <link>https://macadminfi.github.io/post/FinMacAdmin/</link>
+      <link>http://macadmin.fi/post/FinMacAdmin/</link>
       <pubDate>Wed, 18 Jan 2017 11:44:56 +0200</pubDate>
       
-      <guid>https://macadminfi.github.io/post/FinMacAdmin/</guid>
+      <guid>http://macadmin.fi/post/FinMacAdmin/</guid>
       <description>
 
 &lt;p&gt;After a short hiatus, FinMacAdmin is back again - bigger and better than ever!
