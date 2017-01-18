@@ -1,11 +1,11 @@
 languageCode = "en-us"
 title = "MacAdmin.fi"
-baseurl = "https://macadminfi.github.io/"
+baseurl = "http://macadmin.fi"
 themesDir = "themes"
 theme = "hugo-theme-vec"
 #paginate = 10
 
-[Menu]
+[menu]
   # Shown in the side menu.
   [[menu.main]]
     name = "post"
