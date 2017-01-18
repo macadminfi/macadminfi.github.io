@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "MacAdmin.fi"
-baseurl = "http://macadmin.fi/"
+baseurl = "https://macadminfi.github.io"
 themesDir = "themes"
 theme = "hugo-theme-vec"
 paginate = 10
