@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "MacAdmin.fi"
-baseurl = "https://macadminfi.github.io"
+baseurl = "https://macadminfi.github.io/"
 themesDir = "themes"
 theme = "anybodyhome"
 paginate = 10
