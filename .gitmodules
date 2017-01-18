@@ -1,3 +1,12 @@
 [submodule "themes/anybodyhome"]
 	path = themes/anybodyhome
 	url = https://github.com/lasseborly/anybodyhome.git
+[submodule "themes/nofancy"]
+	path = themes/nofancy
+	url = https://github.com/gizak/nofancy.git
+[submodule "themes/hugo-alabaster-theme"]
+	path = themes/hugo-alabaster-theme
+	url = git@github.com:digitalcraftsman/hugo-alabaster-theme.git
+[submodule "themes/cocoa-hugo-theme"]
+	path = themes/cocoa-hugo-theme
+	url = https://github.com/nishanths/cocoa-hugo-theme.git
