@@ -4,6 +4,7 @@ baseurl = "https://macadminfi.github.io/"
 themesDir = "themes"
 theme = "anybodyhome"
 
+# beware when making changes:
 [Params]
   Subtitle = "Home of the Finnish Mac Admins"
   Author = "The Finnish MacAdmin Community"
