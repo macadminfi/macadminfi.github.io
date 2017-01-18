@@ -3,7 +3,7 @@ title = "MacAdmin.fi"
 baseurl = "https://macadminfi.github.io/"
 themesDir = "themes"
 theme = "anybodyhome"
-
+enableRobotsTXT = true
 [Params]
   Subtitle = "Home of the Finnish Mac Admins"
   Author = "The Finnish MacAdmin Community"
