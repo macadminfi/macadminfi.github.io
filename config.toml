@@ -2,9 +2,8 @@ languageCode = "en-us"
 title = "MacAdmin.fi"
 baseurl = "https://macadminfi.github.io/"
 themesDir = "themes"
-theme = "anybodyhome"
-paginate = 10
-copyright = "Copyright (c) 2017, MacAdminFi; all rights reserved."
+theme = "hugo-theme-vec"
+#paginate = 10
 
 [menu]
   # Shown in the side menu.
@@ -23,7 +22,6 @@ copyright = "Copyright (c) 2017, MacAdminFi; all rights reserved."
 
 [params]
   Keywords = "macadminfi, finmacadmin"
-  subtitle = "Home of the Finnish Mac Admins"
   SelfIntro = "The Finnish MacAdmin Community"
   GithubID = "macadminfi"
   Avater = "img/mbp_finflag.jpg"
