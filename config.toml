@@ -2,8 +2,29 @@ languageCode = "en-us"
 title = "MacAdmin.fi"
 baseurl = "http://macadmin.fi/"
 themesDir = "themes"
-theme = "nofancy"
+theme = "hugo-theme-vec"
+paginate = 10
 enableRobotsTXT = true
-[Params]
-  Subtitle = "Home of the Finnish Mac Admins"
-  Author = "The Finnish MacAdmin Community"
+copyright = "Copyright (c) 2017, MacAdminFi; all rights reserved."
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "/contact"
+  [[menu.main]]
+    name = "about"
+    weight = 2
+    url = "/about"
+
+[params]
+  Keywords = "macadminfi, finmacadmin"
+  subtitle = "Home of the Finnish Mac Admins"
+  SelfIntro = "The Finnish MacAdmin Community"
+  GithubID = "macadminfi"
+  Avater = "img/mbp_finflag.jpg"

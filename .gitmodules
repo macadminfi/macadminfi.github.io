@@ -10,3 +10,6 @@
 [submodule "themes/cocoa-hugo-theme"]
 	path = themes/cocoa-hugo-theme
 	url = https://github.com/nishanths/cocoa-hugo-theme.git
+[submodule "themes/hugo-theme-vec"]
+	path = themes/hugo-theme-vec
+	url = https://github.com/IvanChou/hugo-theme-vec
