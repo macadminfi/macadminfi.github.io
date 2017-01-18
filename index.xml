@@ -7,20 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, MacAdminFi; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 18 Jan 2017 13:22:29 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2017 11:44:56 +0200</lastBuildDate>
     <atom:link href="https://macadminfi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>About MacAdminFi organization</title>
-      <link>https://macadminfi.github.io/about/</link>
-      <pubDate>Wed, 18 Jan 2017 13:22:29 +0200</pubDate>
-      
-      <guid>https://macadminfi.github.io/about/</guid>
-      <description>&lt;p&gt;MacAdminFi is an organization of Finnish Mac Admininistrators. Our aim is to provide information and organize events evolving around the Apple ecosystems.&lt;/p&gt;
-
-&lt;p&gt;We have no official structure, membership or affiliation with any instances.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>FinMacAdmin 20.1.2017</title>
@@ -120,16 +108,6 @@ The address is: Aku Korhosen tie 2, Helsinki.&lt;/p&gt;
 Our small community has been growing rapidly during the past year - so at least for us, 2016 was not that bad afterall. We have welcomed many new faces - or should we say nicknames or handles - to the &lt;code&gt;#finland&lt;/code&gt; channel on the global &lt;a href=&#34;https://macadmins.org&#34;&gt;MacAdmins Slack&lt;/a&gt;. We hope that the trend continues - welcome you all!&lt;br /&gt;
 &lt;br /&gt;
 Talking about putting names to faces or vice versa - the FinMacAdmin meetup/workshop/get2gether has been on a short hiatus but soon we all will meet again. Actually pretty soon, since the webmaster has been way too busy recently and has failed to update the pages. Anyhow, stay tuned for more!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://macadminfi.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://macadminfi.github.io/contact/</guid>
-      <description>&lt;p&gt;The easiest (and currently the only) way to contact MacAdminFi community is to join the &lt;a href=&#34;https://macadmins.org&#34;&gt;MacAdmins Slack&lt;/a&gt; and join the &lt;code&gt;#Finland&lt;/code&gt; channel.&lt;/p&gt;
 </description>
     </item>
     
