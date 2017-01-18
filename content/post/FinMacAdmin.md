@@ -8,7 +8,7 @@ After a short hiatus, FinMacAdmin is back again - bigger and better than ever!
 <br/><br/>
 This year, the organizers will bring you our first ever guests from outside Finnish borders as [Henry Stamerjohann](https://github.com/headmin) ([Slack](macadmins.org):@henry) from [Apfelwerk](https://www.apfelwerk.de) and Viktor Glemme ([Slack](macadmins.org):@glemme) from [JAMF](https://www.jamf.com) will be presenting at the event.
 
-Henry and Viktor will be joined on stage by the household names, such as [Hannes Juutilainen](https://github.com/hjuutilainen) (@hjuutilainen) and [Janne Lehikoinen](https://github.com/jlehikoinen) (@fatmrcrab).
+Henry and Viktor will be joined on stage by the household names, such as [Hannes Juutilainen](https://github.com/hjuutilainen) ([Slack](macadmins.org):@hjuutilainen) and [Janne Lehikoinen](https://github.com/jlehikoinen) ([Slack](macadmins.org):@fatmrcrab).
 
 ## Attending:
 
@@ -17,14 +17,16 @@ We are sold out for this event.
 
 ## Venue:
 
-The event will be held in the former Tieto Headquarter offices in Helsinki.  
-The address is: Aku Korhosen tie 2, Helsinki.
+The event will be held in the former Tieto Headquarters in Helsinki.  
+The address is: Aku Korhosen tie 2, Helsinki. Guest entrance is in the building number 1, 1st floor (i.e. the first building on the left side of the road).
 
 Location on Google Maps: https://goo.gl/maps/9sttfNYPgsq
 
 
 ## Program
-The event will start at 11.00(AM), speakers are adviced to arrive at 10.00(AM).
+The event will start at 11.00(AM). Please arrive a few minutes before the first session, as entering the venue requires guidance from the Tieto staff.
+
+Speakers are adviced to arrive at 10.00(AM).
 
 *Hands-on sessions have prerequisites, please familiarize yourself with them beforehand.*
 
