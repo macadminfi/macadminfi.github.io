@@ -6,9 +6,9 @@ draft = false
 +++
 After a short hiatus, FinMacAdmin is back again - bigger and better than ever!
 <br/><br/>
-This year, the organizers will bring you our first ever guests from outside Finnish borders as [Henry Stamerjohann](https://github.com/headmin) ([Slack](macadmins.org):@henry) from [Apfelwerk](https://www.apfelwerk.de) and Viktor Glemme ([Slack](macadmins.org):@glemme) from [JAMF](https://www.jamf.com) will be presenting at the event.
+This year, the organizers will bring you our first ever guests from outside Finnish borders as [Henry Stamerjohann](https://github.com/headmin) ([Slack](https://macadmins.org):@henry) from [Apfelwerk](https://www.apfelwerk.de) and Viktor Glemme ([Slack](https://macadmins.org):@glemme) from [JAMF](https://www.jamf.com) will be presenting at the event.
 
-Henry and Viktor will be joined on stage by the household names, such as [Hannes Juutilainen](https://github.com/hjuutilainen) ([Slack](macadmins.org):@hjuutilainen) and [Janne Lehikoinen](https://github.com/jlehikoinen) ([Slack](macadmins.org):@fatmrcrab).
+Henry and Viktor will be joined on stage by the household names, such as [Hannes Juutilainen](https://github.com/hjuutilainen) ([Slack](https://macadmins.org):@hjuutilainen) and [Janne Lehikoinen](https://github.com/jlehikoinen) ([Slack](https://macadmins.org):@fatmrcrab).
 
 ## Attending:
 
