@@ -2,9 +2,26 @@ languageCode = "en-us"
 title = "MacAdmin.fi"
 baseurl = "https://macadminfi.github.io/"
 themesDir = "themes"
-theme = "anybodyhome"
+theme = "hugo-theme-vec"
+#paginate = 10
 
-# beware when making changes:
+[Menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "/contact"
+  [[menu.main]]
+    name = "about"
+    weight = 2
+    url = "/about"
+
 [Params]
-  Subtitle = "Home of the Finnish Mac Admins"
-  Author = "The Finnish MacAdmin Community"
+  Keywords = "macadminfi, finmacadmin"
+  SelfIntro = "The Finnish MacAdmin Community"
+  GithubID = "macadminfi"
+  Avater = "img/mbp_finflag.jpg"
