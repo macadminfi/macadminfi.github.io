@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "MacAdmin.fi"
 baseurl = "https://macadminfi.github.io"
 themesDir = "themes"
-theme = "hugo-theme-vec"
+theme = "anybodyhome"
 paginate = 10
 copyright = "Copyright (c) 2017, MacAdminFi; all rights reserved."
 

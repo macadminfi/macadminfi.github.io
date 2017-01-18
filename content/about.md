@@ -2,6 +2,7 @@
 date = "2017-01-18T13:22:29+02:00"
 title = "About MacAdminFi organization"
 categories = ["misc"]
+draft = true
 
 +++
 
