@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MacAdmin.fi</title>
-    <link>http://macadmin.fi/post/index.xml</link>
-    <description>Recent content in Posts on MacAdmin.fi</description>
+    <title>Blog on MacAdmin.fi</title>
+    <link>http://macadmin.fi/categories/blog/index.xml</link>
+    <description>Recent content in Blog on MacAdmin.fi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, MacAdminFi; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 18 Jan 2017 11:44:56 +0200</lastBuildDate>
-    <atom:link href="http://macadmin.fi/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://macadmin.fi/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FinMacAdmin 20.1.2017</title>

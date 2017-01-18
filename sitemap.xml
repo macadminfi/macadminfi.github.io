@@ -2,19 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://macadminfi.github.io/post/ToTheInternetz/</loc>
+    <loc>http://macadmin.fi/about/</loc>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/post/FinMacAdmin/</loc>
+    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/post/ToTheInternetz/</loc>
     <lastmod>2017-01-17T01:41:09+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macadminfi.github.io/</loc>
-    <lastmod>2017-01-17T01:41:09+02:00</lastmod>
+    <loc>http://macadmin.fi/categories/blog/</loc>
+    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://macadminfi.github.io/post/</loc>
-    <lastmod>2017-01-17T01:41:09+02:00</lastmod>
+    <loc>http://macadmin.fi/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/categories/finmacadmin/</loc>
+    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/</loc>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/categories/misc/</loc>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macadmin.fi/post/</loc>
+    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
     <priority>0</priority>
   </url>
   
