@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://macadminfi.github.io/about/</loc>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macadminfi.github.io/post/FinMacAdmin/</loc>
     <lastmod>2017-01-18T11:44:56+02:00</lastmod>
   </url>
@@ -23,6 +28,10 @@
   </url>
   
   <url>
+    <loc>https://macadminfi.github.io/contact/</loc>
+  </url>
+  
+  <url>
     <loc>https://macadminfi.github.io/categories/finmacadmin/</loc>
     <lastmod>2017-01-18T11:44:56+02:00</lastmod>
     <priority>0</priority>
@@ -30,7 +39,13 @@
   
   <url>
     <loc>https://macadminfi.github.io/</loc>
-    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macadminfi.github.io/categories/misc/</loc>
+    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
