@@ -1,33 +1,28 @@
 language: go
-
 go:
-  - "1.7.4"
-
+- 1.9.2
 env:
   global:
-    - secure: "ZWbWnI0PC/4YfKsboqGaapFKo8onCdE0NkYJ54vGvIeSpjHlnezVxaT4R/mpkyU4JlHTh42VJ2cAe7DaftFCUXV+4YlwFEfnUExcnlNFasRQlqZpjr58qTThZE6dR//lFTAvyBsBd+OIb3R0dQk1B4hO+29K93CLpxHuN/oFw5t+qO3FdJ8gsEriM8GWgjImD3IupH9R6ZDQ7c8FMu3yRwjwDAxXgDX8L+6Zt6JFmBncEFK6DxNJNhF35ouAokkgAlCEEAPySbkP++DRyzdSWf4z55RoF8zLXlVqCSjG3viGPbqASpX6lvKlpF0BQj60zWYTEWm8MNyE3l9APqbuVKi1lDdZywtof+ncP9vItk6VxWo7wEUAvAD+c3TUUzTiXq678aaZ+FvVR/OXGRAfQIYDzm6kfgTJgTB0nhTqIhKMS8sG/kz37F2lR6VMKNroXnctpwI/seR5eoR/J+enChE7NMHxJhC+r4cpMsDawP9swHV0RppV5ZZER4DKsbtbi2iQ/UJTs3Ck4rnwwg4UM0EBNvWJI/vm1fX81Rddq2x8tv8+cGSYAOT1/3vvkeFkgC7aQf1K+zqLt4MdjNMnVm4SpTM1CBmi8lGu7DddKl/Rd9zqxQ73FWtFmZJDngeA3EHQSvq1MNIjT+3ANoSJNitTxt6rSXaiQeWP33f53hc="
-    - GIT_DEPLOY_DIR=public             # default output dir of Hugo
-    - GIT_DEPLOY_BRANCH=master          # target branch
-    - GIT_DEPLOY_USERNAME="apettinen"   # dummy name
-    - GIT_DEPLOY_EMAIL=antti.pettinen@gmail.com # replace by your email
-
+  - secure: "Q2a8XZdlW+Ykuygr8XL3v30tGHmARZdHbYFiSyQKQg1m7ftkfwen8C2HRGVue7lGNZvW0h8bNwxarBLe0FP+DL5XsRFoDUxpLaLVXQGZckwNZnXD/SJmF9kOfI+50cnoxu7EAyQP3A0XB8DGtcUlzC5ZZhfATZ0Rlu+VrRJph4YZf3UkpJQJA91m4sFcoRHpeDDrFHvN0DCldwACTO22FwUwsBXi2Hn1gtGKNESeZdwokOgD7GgkL6swNIXkmqHM82TfmRpdcnywjKG3JtMf5d8+AUbmakENS9R1XH/x9lw5ldND49B2SfbRwAVb7gCItOSt5tsMLOnOb3gfMEk/4xUfPRZeJbAIP0pXunIzbWB+E5am8JL/Gy/f9HI4R7IfumxX5X4SlBPT4ggG+no0nrBS+KOqKaQGi1yiBFR+Wn9l3/45RJXx7Kr0cbvO/yBdz5Hxodb8CC0rFGTTHAi4ALIW6HX/bIH5XzjgGv3YKSGuptCqmot2QFC/EfMSwfV6Sa0OyxpRxZz0FMGtXdRWQRl6H2W1ukXXvK2ithu/Z4HVNJrka8F/+Sh1IA+AkgHg30DFXWtsPi2gu7W8/0sdb6xwBXRV4btmdJcsnNTjOFEDH8WFJKYonhuSoXD1bsFq14w8w5Fy13FF6+6teA7ulOV9SGGzhuRpI2kpjrCUJZM="
+  - GIT_DEPLOY_DIR=public
+  - GIT_DEPLOY_BRANCH=master
+  - GIT_DEPLOY_USERNAME="apettinen"
+  - GIT_DEPLOY_EMAIL=antti.pettinen@gmail.com
 branches:
   only:
-    - sources                           # for Github Project Pages replace with "master"
-
+  - sources
 install:
-  - rm -rf public || exit 0             # cleanup previous run
-
+- rm -rf public || exit 0
 before_script:
-    - git config --global push.default simple
-    - git submodule init
-    - git submodule update
-    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
-    - go get -u -v github.com/spf13/hugo
-
+- git config --global push.default simple
+- git submodule init
+- git submodule update
+- git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
+- go get github.com/kardianos/govendor
+- govendor get github.com/gohugoio/hugo
+- go install github.com/gohugoio/hugo
 script:
-  #- binaries/hugo                       # Generate binaries
-  - hugo
+- hugo
 after_success:
-  - cp .travis.yml public               # all branches need this file
-  - bash deploy.sh -v                     # run the deploy
+- cp .travis.yml public
+- bash deploy.sh -v

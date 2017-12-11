@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://macadminfi.github.io/post/finmacadmin_2017_part_deux/</loc>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
+  </url>
   
   <url>
     <loc>https://macadminfi.github.io/about/</loc>
@@ -7,23 +13,24 @@
   </url>
   
   <url>
-    <loc>https://macadminfi.github.io/post/FinMacAdmin/</loc>
+    <loc>https://macadminfi.github.io/post/finmacadmin/</loc>
     <lastmod>2017-01-18T11:44:56+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macadminfi.github.io/post/ToTheInternetz/</loc>
+    <loc>https://macadminfi.github.io/post/totheinternetz/</loc>
     <lastmod>2017-01-17T01:41:09+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://macadminfi.github.io/categories/blog/</loc>
-    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://macadminfi.github.io/categories/</loc>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -33,25 +40,30 @@
   
   <url>
     <loc>https://macadminfi.github.io/categories/finmacadmin/</loc>
-    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://macadminfi.github.io/</loc>
-    <lastmod>2017-01-18T13:22:29+02:00</lastmod>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://macadminfi.github.io/categories/misc/</loc>
+    <loc>https://macadminfi.github.io/categories/org/</loc>
     <lastmod>2017-01-18T13:22:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://macadminfi.github.io/post/</loc>
-    <lastmod>2017-01-18T11:44:56+02:00</lastmod>
+    <lastmod>2017-12-10T20:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macadminfi.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

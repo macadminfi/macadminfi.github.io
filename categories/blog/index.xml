@@ -2,113 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on MacAdmin.fi</title>
-    <link>https://macadminfi.github.io/categories/blog/index.xml</link>
+    <link>https://macadminfi.github.io/categories/blog/</link>
     <description>Recent content in Blog on MacAdmin.fi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://macadminfi.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2017 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://macadminfi.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FinMacAdmin 12.12.2017</title>
+      <link>https://macadminfi.github.io/post/finmacadmin_2017_part_deux/</link>
+      <pubDate>Sun, 10 Dec 2017 20:00:00 +0200</pubDate>
+      
+      <guid>https://macadminfi.github.io/post/finmacadmin_2017_part_deux/</guid>
+      <description>FinMacAdmin 2017 pt.2 - First time second time in a calendar year!  Second event of the year takes place in downtown Helsinki, with topics ranging from WiFi to Swift. We will also hear about new things happening in Apple ecosystem - and of course, meet colleagues!
+Attending: We are sold out.
+However, you can follow the registration page at https://www.regonline.com/FI_EMEIA_TP_ENT_171212_2091372 for cancellations.
+Venue: The event will be held in the World Trade Center Helsinki.</description>
+    </item>
     
     <item>
       <title>FinMacAdmin 20.1.2017</title>
-      <link>https://macadminfi.github.io/post/FinMacAdmin/</link>
+      <link>https://macadminfi.github.io/post/finmacadmin/</link>
       <pubDate>Wed, 18 Jan 2017 11:44:56 +0200</pubDate>
       
-      <guid>https://macadminfi.github.io/post/FinMacAdmin/</guid>
-      <description>
-
-&lt;p&gt;After a short hiatus, FinMacAdmin is back again - bigger and better than ever!
-&lt;br/&gt;&lt;br/&gt;
-This year, the organizers will bring you our first ever guests from outside Finnish borders as &lt;a href=&#34;https://github.com/headmin&#34;&gt;Henry Stamerjohann&lt;/a&gt; (&lt;a href=&#34;https://macadmins.org&#34;&gt;Slack&lt;/a&gt;:@henry) from &lt;a href=&#34;https://www.apfelwerk.de&#34;&gt;Apfelwerk&lt;/a&gt; and Viktor Glemme (&lt;a href=&#34;https://macadmins.org&#34;&gt;Slack&lt;/a&gt;:@glemme) from &lt;a href=&#34;https://www.jamf.com&#34;&gt;JAMF&lt;/a&gt; will be presenting at the event.&lt;/p&gt;
-
-&lt;p&gt;Henry and Viktor will be joined on stage by the household names, such as &lt;a href=&#34;https://github.com/hjuutilainen&#34;&gt;Hannes Juutilainen&lt;/a&gt; (&lt;a href=&#34;https://macadmins.org&#34;&gt;Slack&lt;/a&gt;:@hjuutilainen) and &lt;a href=&#34;https://github.com/jlehikoinen&#34;&gt;Janne Lehikoinen&lt;/a&gt; (&lt;a href=&#34;https://macadmins.org&#34;&gt;Slack&lt;/a&gt;:@fatmrcrab).&lt;/p&gt;
-
-&lt;h2 id=&#34;attending&#34;&gt;Attending:&lt;/h2&gt;
-
-&lt;p&gt;We are sold out for this event.&lt;/p&gt;
-
-&lt;h2 id=&#34;venue&#34;&gt;Venue:&lt;/h2&gt;
-
-&lt;p&gt;The event will be held in the former Tieto Headquarters in Helsinki.&lt;br /&gt;
-The address is: Aku Korhosen tie 2, Helsinki. Guest entrance is in the building number 1, 1st floor (i.e. the first building on the left side of the road).&lt;/p&gt;
-
-&lt;p&gt;Location on Google Maps: &lt;a href=&#34;https://goo.gl/maps/9sttfNYPgsq&#34;&gt;https://goo.gl/maps/9sttfNYPgsq&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;program&#34;&gt;Program&lt;/h2&gt;
-
-&lt;p&gt;The event will start at 11.00(AM). Please arrive a few minutes before the first session, as entering the venue requires guidance from the Tieto staff.&lt;/p&gt;
-
-&lt;p&gt;Speakers are adviced to arrive at 10.00(AM).&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Hands-on sessions have prerequisites, please familiarize yourself with them beforehand.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;schedule&#34;&gt;Schedule:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;11.00 - 11.15:&lt;/strong&gt; Registration and Welcome&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;11.15 - 12.00:&lt;/strong&gt; Janne Lehikoinen (Tieto Oyj): &lt;em&gt;iOS &amp;amp; SysAdmin Tools&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;12.00 - 12.30:&lt;/strong&gt; Lunch break&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;12.30 - 13.30:&lt;/strong&gt; Lightning talks:
-
-&lt;ul&gt;
-&lt;li&gt;Hannes Juutilainen (University of Jyväskylä): &lt;em&gt;AutoPkg 1.0 features&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Antti Pettinen (Tampere University of Technology): &lt;em&gt;Caddy and Santa came to town&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;13.30 - 14.15:&lt;/strong&gt; Viktor Glemme (JAMF): &lt;em&gt;JAMF Pro&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;14.30 - 18.00:&lt;/strong&gt; Henry Stamerjohann (Apfelwerk): &lt;em&gt;Hands on Zentral&lt;/em&gt;
-
-&lt;ul&gt;
-&lt;li&gt;read prerequisites from &lt;a href=&#34;https://github.com/macadminfi/finmacadmin2017/blob/master/hands_on_zentral/Prerequisites.md&#34;&gt;FinMacAdmin2017/hands_on_zentral&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ssh-keys can be generated as follows:
-
-&lt;ol&gt;
-&lt;li&gt;Open terminal&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ssh-keygen -t rsa -b 4096 -C &amp;quot;your.email@example.com&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;When prompted, fill in the location where to save the key:&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;for example: &lt;code&gt;/Users/YourUserName/.ssh/id_rsa_zentraldemo&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;To secure your key, type in a passphrase&lt;/li&gt;
-&lt;li&gt;Add key to your ssh-agent:
-
-&lt;ol&gt;
-&lt;li&gt;Start the ssh-agent if not already running: &lt;code&gt;eval &amp;quot;$(ssh-agent -s)&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add the key to your ssh-agent: &lt;code&gt;ssh-add ~/.ssh/id_rsa_zentraldemo&lt;/code&gt; (replace the name of the key if necessary)&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;18.00 -&amp;gt; :&lt;/strong&gt; Discussion and Sauna (of course)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;material&#34;&gt;Material&lt;/h2&gt;
-
-&lt;p&gt;Material will be available in the MacAdminFi GitHub repository: &lt;a href=&#34;https://github.com/macadminfi/finmacadmin2017&#34;&gt;https://github.com/macadminfi/finmacadmin2017&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;sponsors&#34;&gt;Sponsors:&lt;/h2&gt;
-
-&lt;p&gt;We thank these companies for support:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tieto.com/&#34;&gt;Tieto Oyj&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jamf.com/&#34;&gt;JAMF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Special thanks to our employers for allowing us to work on the event not just on our free time.&lt;/p&gt;
-</description>
+      <guid>https://macadminfi.github.io/post/finmacadmin/</guid>
+      <description>After a short hiatus, FinMacAdmin is back again - bigger and better than ever!  This year, the organizers will bring you our first ever guests from outside Finnish borders as Henry Stamerjohann (Slack:@henry) from Apfelwerk and Viktor Glemme (Slack:@glemme) from JAMF will be presenting at the event.
+Henry and Viktor will be joined on stage by the household names, such as Hannes Juutilainen (Slack:@hjuutilainen) and Janne Lehikoinen (Slack:@fatmrcrab).</description>
     </item>
     
     <item>
       <title>Finnish Mac Admin Community site</title>
-      <link>https://macadminfi.github.io/post/ToTheInternetz/</link>
+      <link>https://macadminfi.github.io/post/totheinternetz/</link>
       <pubDate>Tue, 17 Jan 2017 01:41:09 +0200</pubDate>
       
-      <guid>https://macadminfi.github.io/post/ToTheInternetz/</guid>
-      <description>&lt;p&gt;Hello &lt;a href=&#34;https://www.youtube.com/watch?v=HAoHUjVmTmg&#34;&gt;Suomalaiset people&lt;/a&gt; and others too! Welcome to the new and first home of the Finnish Mac Admin community. These webpages will host information about coming events and occasionally a blog post or two. The best thing is that &lt;em&gt;anybody&lt;/em&gt; can take part and contribute - our source code is open on &lt;a href=&#34;https://github.com/macadminfi&#34;&gt;GitHub&lt;/a&gt;.&lt;br /&gt;
-&lt;br /&gt;
-Our small community has been growing rapidly during the past year - so at least for us, 2016 was not that bad afterall. We have welcomed many new faces - or should we say nicknames or handles - to the &lt;code&gt;#finland&lt;/code&gt; channel on the global &lt;a href=&#34;https://macadmins.org&#34;&gt;MacAdmins Slack&lt;/a&gt;. We hope that the trend continues - welcome you all!&lt;br /&gt;
-&lt;br /&gt;
-Talking about putting names to faces or vice versa - the FinMacAdmin meetup/workshop/get2gether has been on a short hiatus but soon we all will meet again. Actually pretty soon, since the webmaster has been way too busy recently and has failed to update the pages. Anyhow, stay tuned for more!&lt;/p&gt;
-</description>
+      <guid>https://macadminfi.github.io/post/totheinternetz/</guid>
+      <description>Hello Suomalaiset people and others too! Welcome to the new and first home of the Finnish Mac Admin community. These webpages will host information about coming events and occasionally a blog post or two. The best thing is that anybody can take part and contribute - our source code is open on GitHub.
+Our small community has been growing rapidly during the past year - so at least for us, 2016 was not that bad afterall.</description>
     </item>
     
   </channel>
