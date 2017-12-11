@@ -30,7 +30,7 @@ Speakers are adviced to arrive at 09.45(AM).
 *Some sessions have prerequisites, please familiarize yourself with them beforehand.*
 
 ### Schedule:
-- **10.00 - 10.45:**  Jarkko Ahonen (Apple): *Opening words & UASKEL*
+- **10.00 - 10.45:**  Jarkko Ahonen (Apple): *Opening words & UAKEL*
 - **10.50 - 11.50** Janne Lehikoinen & Antti Tulisalo (Tieto Oyj): *How to create a Swift macOS app*
   - Prerequisites:
     - Xcode 9 installed
